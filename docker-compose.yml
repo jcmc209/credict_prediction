@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: flask_streamlit_app
+    ports:
+      - "5000:5000" # Mapea el puerto de Flask
+      - "8501:8501" # Mapea el puerto de Streamlit
+    volumes:
+      - ./app/logs:/app/app/logs # Volumen persistente para logs
+    environment:
+      - FLASK_ENV=production # Define entorno de Flask
