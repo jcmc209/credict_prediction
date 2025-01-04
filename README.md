@@ -1,3 +1,7 @@
+José Carlos Monescillo Calzado
+
+Repositorio: https://github.com/jcmc209/credict_prediction
+
 # Documentación del Proyecto: Predicción de Préstamos
 
 Este documento detalla la estructura, funcionalidad y uso de la aplicación desarrollada, que consta de una API (usando Flask) y un dashboard interactivo (usando Streamlit). La aplicación permite realizar predicciones sobre un modelo de regresión logística previamente entrenado.
