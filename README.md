@@ -28,6 +28,8 @@ creditPrediction/
 ├── dashboard.py              # Código del dashboard interactivo (Streamlit)
 ├── Dockerfile                # Archivo Docker para construir la imagen
 ├── docker-compose.yml        # Configuración de Docker Compose
+├── guia_de_uso.mp4           # Vídeo explicativo de funcionamiento
+├── informe_practica.pdf      # Informe detallado
 ├── requirements.txt          # Dependencias del proyecto
 ├── start.sh                  # Script para iniciar API y dashboard
 └── README.md                 # Documentación del proyecto
