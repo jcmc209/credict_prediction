@@ -25,12 +25,14 @@ creditPrediction/
 │   │       └── logistic_model_with_columns.pkl
 │   └── logs/                 # Carpeta de logs
 │       └── api_logs.json     # Logs de las solicitudes
+├── docs/
+│   └── informe_practica.pdf  # Informe detallado
+├── env/
+│   └── requirements.txt      # Dependencias del proyecto
 ├── dashboard.py              # Código del dashboard interactivo (Streamlit)
 ├── Dockerfile                # Archivo Docker para construir la imagen
 ├── docker-compose.yml        # Configuración de Docker Compose
 ├── guia_de_uso.mp4           # Vídeo explicativo de funcionamiento
-├── informe_practica.pdf      # Informe detallado
-├── requirements.txt          # Dependencias del proyecto
 ├── start.sh                  # Script para iniciar API y dashboard
 └── README.md                 # Documentación del proyecto
 ```
